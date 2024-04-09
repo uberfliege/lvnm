@@ -1,0 +1,165 @@
+
+.scroll { 
+    display: block; 
+    border: 0px solid red;
+    margin-top: -40px; 
+    
+   
+   
+    width: 100%; 
+    height: 900px; 
+    overflow-y: scroll; 
+} 
+.zoom.blur{
+   
+    margin-top: 10px;
+    margin-left: 130px;
+   
+    padding: 10px;
+    transform:scale(1.2);
+    
+    
+}
+.content.fade{
+    height:100px;
+    width:100px;
+    margin-left:140px;
+    margin-top: -10px;
+    transform: scale(1.2);
+    
+   
+   
+  
+}
+
+
+#plazacard{
+    position: relative;
+    margin-left: 10px;
+
+    
+    cursor: pointer;
+    
+   
+    animation: slide .3s;
+    z-index: 1;
+}
+#plazacard:hover{
+    
+    transform: scale(1.1);
+    
+}
+#plazantiquescard{
+    position: relative;
+    margin-left: 10px;
+    
+    opacity:100%;
+    
+    
+   
+    animation: slide .5s;
+    z-index: 3;
+}
+#plazantiquescard:hover{
+    transform: scale(1.1);
+}
+#stmichaelscard{
+    position: relative;
+    margin-top: 10px;
+    margin-left: 10px;
+
+   
+    animation: slide .7s;
+    z-index: 5;
+}
+#stmichaelscard:hover{
+    transform: scale(1.1);
+}
+#jcpizzacard{
+    position: relative;
+    
+    margin-top: 5px;
+    
+   
+    animation: slide .9s;
+    z-index: 7;
+}
+#jcpizzacard:hover{
+    transform: scale(1.1);
+}
+
+#casademusicacard{
+    position: relative;
+    
+    
+    
+    
+   
+    animation: slide .9s;
+    z-index: 7;
+}
+#casademusicacard:hover{
+    transform: scale(1.1);
+}
+#weavegathercard{
+    position: relative;
+    margin-left: 15px;
+    margin-top: 5px;
+    
+    
+   
+    animation: slide 1.1s;
+    z-index: 9;
+
+}
+#weavegathercard:hover{
+    transform: scale(1.1);
+}
+#encantocard{
+    position: relative;
+    margin-left:8px;
+    
+    
+    
+    
+   
+    animation: slide 1.3s;
+    z-index: 9;
+
+}
+#encantocard:hover{
+    transform: scale(1.1);
+}
+#cuisinecard{
+    position: relative;
+    margin-left: 10px;
+   
+
+    
+   
+    animation: slide 1.1s;
+    z-index: 11;
+
+}
+#cuisinecard:hover{
+    transform: scale(1.1);
+
+}    
+#pflowerscard{
+    position: relative;
+    margin-left: 15px;
+    margin-top: 10px;
+    
+    
+   
+    animation: slide 1.5s;
+    z-index:14;
+
+}
+#pflowerscard:hover{
+    transform: scale(1.1);
+}
+@keyframes slide {
+    0% { left: 50%; }
+    100%{ left: 0%; }
+}

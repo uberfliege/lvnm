@@ -1,0 +1,94 @@
+
+
+.barstitle{
+    margin-left:150px;
+    margin-top: -20px;
+}
+
+.barsicon{
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+.scroll{
+    margin-top: -50px;
+}
+#dickscard{
+    position: relative;
+    margin-left: 10px;
+
+    animation: slide .3s;
+    z-index: 1;
+}
+#dickscard:hover{
+    transform: scale(1.1);
+}
+#castacard{
+    position: relative;
+    margin-left: 10px;
+
+    animation: slide .5s;
+    z-index: 1;
+}
+#castacard:hover{
+    transform: scale(1.1);
+}
+#skilletcard{
+    position: relative;
+    margin-left: 10px;
+
+    animation: slide .7s;
+    z-index: 1;
+}
+#skilletcard:hover{
+    transform: scale(1.1);
+}
+
+
+#borracho{
+    position: relative;
+    margin-left: 10px;
+
+    animation: slide .9s;
+    z-index: 8;
+}
+#borracho:hover{
+    transform: scale(1.1);
+}
+
+#buffalo{
+    position: relative;
+    margin-left: 10px;
+
+    animation: slide 1.1s;
+    z-index: 10;
+}
+#buffalo:hover{
+    transform: scale(1.1);
+}
+
+#legers{
+    position: relative;
+    margin-left: 10px;
+
+    animation: slide 1.1s;
+    z-index: 12;
+}
+#legers:hover{
+    transform: scale(1.1);
+}
+
+#lupes{
+    position: relative;
+    margin-left: 10px;
+
+    animation: slide 1.1s;
+    z-index: 12;
+}
+#lupes:hover{
+    transform: scale(1.1);
+}
+@keyframes slide {
+    0% { left: 50%; }
+    100%{ left: 0%; }
+}

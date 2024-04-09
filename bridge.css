@@ -1,0 +1,54 @@
+
+.zoom.blur{
+   
+    margin-top: 10px;
+    margin-left: 130px;
+   
+    padding: 10px;
+    transform:scale(1.1);
+    
+    
+}
+.content.fade{
+    height:100px;
+    width:100px;
+    margin-left:140px;
+    margin-top: -20px;
+    transform: scale(1.1);
+    
+   
+   
+  
+}
+#encanto{
+    position: relative;
+   
+    animation: slide .3s;
+    z-index: 1;
+}
+@keyframes slide {
+    0% { left: 50%; }
+    100%{ left: 0%; }
+}
+#lafiesta{
+    position: relative;
+    margin-left:5px;
+    margin-top: 5px;
+    z-index: 3;
+    animation: slide .5s;
+}
+
+#rialto{
+    position: relative;
+    margin-left:5px;
+    margin-top: 5px;
+    z-index: 3;
+    animation: slide .7s;
+}
+#sombrero{
+    position: relative;
+    margin-left:5px;
+    margin-top: 5px;
+    z-index: 3;
+    animation: slide .9s;
+}
